@@ -1,10 +1,10 @@
 # Ejercicio3
 
-**TODO: Add description**
+**Proyecto para contar facturas mediante un identificador consumiendo un servicio web.**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+The package can be installed
 by adding `ejercicio3` to your list of dependencies in `mix.exs`:
 
 ```elixir
@@ -13,7 +13,21 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ejercicio3](https://hexdocs.pm/ejercicio3).
+Prerequisitos para ejecutar el aplicativo
+- Instalar elixir
+- Descargar el proyecto
+
+Posteriormente nos colocamos en la terminal a la altura del proyecto
+Ejecutamos la siguiente sentencia:
+
+```
+mix compile
+```
+
+Nota: La primera vez que se ejecuta el comando nos muestra unos warnigs, hay que volverlo a ejecutar.
+
+Después ejecutamos la siguiente sentencia:
+```
+mix test
+```
 
