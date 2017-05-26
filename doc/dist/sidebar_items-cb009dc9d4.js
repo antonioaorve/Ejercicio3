@@ -1,0 +1,1 @@
+sidebarNodes={"extras":[{"id":"api-reference","title":"API Reference","group":"","headers":[{"id":"Modules","anchor":"modules"}]}],"exceptions":[],"modules":[{"id":"Ejercicio3","title":"Ejercicio3","functions":[{"id":"get_bill/8","anchor":"get_bill/8"},{"id":"get_bills/0","anchor":"get_bills/0"}]}],"protocols":[],"tasks":[]}

@@ -20,10 +20,20 @@ defmodule Ejercicio3 do
     :ejercicio3
   end
 
+  @doc """
+  Parámtros n: número máximo de iteraciones, i_inicio: indice de inicio del mapa de 365 dias, i_final: número total de días, res: variable en donde se guarda la suma de facturas
+  divisor: número de particiones, ultimo_bueno: último punto del mapa de donde se obtuvo resultados, tope: número de días del año.
+  Termina cuando ya encontró todas las facturas o el número de iteraciones permitidas llegan al límite.
+  """
   def get_bill(msg, n, i_inicio, i_final,res,divisor, ultimo_bueno, tope) when n <= 1 and i_final > 1 do
     IO.puts msg
   end
 
+  @doc """
+  Parámtros n: número máximo de iteraciones, i_inicio: indice de inicio del mapa de 365 dias, i_final: número total de días, res: variable en donde se guarda la suma de facturas
+  divisor: número de particiones, ultimo_bueno: último punto del mapa de donde se obtuvo resultados, tope: número de días del año.
+  Función recursiva. Contempla las respuestas de la petición y en base a eso toma ciertas decisiones.
+  """
   def get_bill(msg, n, i_inicio, i_final, res, divisor, ultimo_bueno,tope) do
     [ini, fin] = [@fechas[i_inicio], @fechas[i_final]]
     IO.puts "http://34.209.24.195/facturas?id=9a936864-3c10-49a9-b8bd-94bfe26b2163&start=#{@fechas[i_inicio]}&finish=#{@fechas[i_final]}"

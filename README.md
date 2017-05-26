@@ -17,6 +17,11 @@ Prerequisitos para ejecutar el aplicativo
 - Instalar elixir
 - Descargar el proyecto
 
+Antes que nada debemos descargar las dependencias:
+```
+mix deps.get
+```
+
 Posteriormente nos colocamos en la terminal a la altura del proyecto
 Ejecutamos la siguiente sentencia:
 

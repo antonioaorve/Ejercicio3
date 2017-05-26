@@ -1,0 +1,205 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="ExDoc v0.16.1">
+    <title>Ejercicio3 – ejercicio3 v0.1.0</title>
+    <link rel="stylesheet" href="dist/app-4ecae1abb8.css" />
+    
+    <script src="dist/sidebar_items-cb009dc9d4.js"></script>
+  </head>
+  <body data-type="modules">
+    <script>try { if(localStorage.getItem('night-mode')) document.body.className += ' night-mode'; } catch (e) { }</script>
+
+    <div class="main">
+<button class="sidebar-toggle">
+  <span class="icon-menu" aria-hidden="true"></span>
+  <span class="sr-only">Toggle Sidebar</span>
+</button>
+<section class="sidebar">
+
+  
+  <a href="api-reference.html" class="sidebar-projectLink">
+    <div class="sidebar-projectDetails">
+      <h1 class="sidebar-projectName">
+        ejercicio3
+      </h1>
+      <h2 class="sidebar-projectVersion">
+        v0.1.0
+      </h2>
+    </div>
+    
+  </a>
+
+  <div class="sidebar-search">
+    <span class="icon-search" aria-hidden="true"></span>
+    <input type="text" class="sidebar-searchInput" placeholder="search" aria-label="Search" autocomplete="off" />
+  </div>
+
+  <ul class="sidebar-listNav">
+    <li><a id="extras-list" href="#full-list">Pages</a></li>
+
+    
+      <li><a id="modules-list" href="#full-list">Modules</a></li>
+    
+
+    
+
+    
+
+    
+  </ul>
+  <div class="gradient"></div>
+  <ul id="full-list" class="sidebar-fullList"></ul>
+</section>
+
+<section class="content">
+  <div class="content-outer">
+    <div id="content" class="content-inner">
+
+
+      <h1>
+        <small class="visible-xs">ejercicio3 v0.1.0</small>
+        Ejercicio3
+        
+      </h1>
+
+      
+        <section id="moduledoc">
+          <p>Documentation para el  Ejercicio3.</p>
+
+        </section>
+      
+
+      
+        <section id="summary" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#summary">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+            Summary
+          </h1>
+          
+
+          
+  <div class="summary-functions summary">
+    <h2>
+      <a href="#functions">Functions</a>
+    </h2>
+    <div class="summary-row">
+  <div class="summary-signature">
+    <a href="#get_bill/8">get_bill(msg, n, i_inicio, i_final, res, divisor, ultimo_bueno, tope)</a>
+  </div>
+  
+    <div class="summary-synopsis"><p>Parámtros n: número máximo de iteraciones, i_inicio: indice de inicio del mapa de 365 dias, i_final: número total de días, res: variable en donde se guarda la suma de facturas
+divisor: número de particiones, ultimo_bueno: último punto del mapa de donde se obtuvo resultados, tope: número de días del año.
+Función recursiva. Contempla las respuestas de la petición y en base a eso toma ciertas decisiones</p>
+</div>
+  
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#get_bills/0">get_bills()</a>
+  </div>
+  
+    <div class="summary-synopsis"><p>Obtener facturas : Obtiene facturas diviendo los 365 entre 2,3,4,.. hasta conseguir que sean menos 100 facturas.
+Parámtros n: número máximo de iteraciones, i_inicio: indice de inicio del mapa de 365 dias, i_final: número total de días, res: variable en donde se guarda la suma de facturas
+divisor: número de particiones, ultimo_bueno: último punto del mapa de donde se obtuvo resultados, tope: número de días del año.</p>
+<h2>Examples</h2>
+</div>
+  
+</div>
+
+  </div>
+
+
+          
+
+        </section>
+      
+
+      
+
+      
+        <section id="functions" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#functions">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+            Functions
+          </h1>
+          <div class="detail" id="get_bill/8">
+  
+  <div class="detail-header">
+    <a href="#get_bill/8" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <span class="signature">get_bill(msg, n, i_inicio, i_final, res, divisor, ultimo_bueno, tope)</span>
+    
+    
+    
+  </div>
+  <section class="docstring">
+    <p>Parámtros n: número máximo de iteraciones, i_inicio: indice de inicio del mapa de 365 dias, i_final: número total de días, res: variable en donde se guarda la suma de facturas
+divisor: número de particiones, ultimo_bueno: último punto del mapa de donde se obtuvo resultados, tope: número de días del año.
+Función recursiva. Contempla las respuestas de la petición y en base a eso toma ciertas decisiones.</p>
+
+  </section>
+</div>
+<div class="detail" id="get_bills/0">
+  
+  <div class="detail-header">
+    <a href="#get_bills/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <span class="signature">get_bills()</span>
+    
+    
+    
+  </div>
+  <section class="docstring">
+    <p>Obtener facturas : Obtiene facturas diviendo los 365 entre 2,3,4,.. hasta conseguir que sean menos 100 facturas.
+Parámtros n: número máximo de iteraciones, i_inicio: indice de inicio del mapa de 365 dias, i_final: número total de días, res: variable en donde se guarda la suma de facturas
+divisor: número de particiones, ultimo_bueno: último punto del mapa de donde se obtuvo resultados, tope: número de días del año.</p>
+<h2 id="get_bills/0-examples" class="section-heading">
+  <a href="#get_bills/0-examples" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  Examples
+</h2>
+
+<pre><code class="iex elixir">iex&gt; Ejercicio3.get_bills
+:ejercicio3</code></pre>
+
+  </section>
+</div>
+
+        </section>
+      
+
+      
+          <footer class="footer">
+        <p>
+          <span class="line">
+            Built using
+            <a href="https://github.com/elixir-lang/ex_doc" title="ExDoc" rel="help" target="_blank">ExDoc</a> (v0.16.1),
+          </span>
+          <span class="line">
+            designed by
+            <a href="https://twitter.com/dignifiedquire" target="_blank" title="@dignifiedquire">Friedel Ziegelmayer</a>.
+            </span>
+        </p>
+        <button class="night-mode-toggle"><span class="sr-only">Switch theme</span></button>
+      </footer>
+    </div>
+  </div>
+</section>
+</div>
+  <script src="dist/app-126b5f0e90.js"></script>
+  </body>
+</html>
+
