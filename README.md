@@ -24,10 +24,16 @@ Ejecutamos la siguiente sentencia:
 mix compile
 ```
 
-Nota: La primera vez que se ejecuta el comando nos muestra unos warnigs, hay que volverlo a ejecutar.
+Nota: La primera vez que se ejecuta el comando nos muestra unos warnigs en windows, hay que volverlo a ejecutar.
 
 Después ejecutamos la siguiente sentencia:
 ```
 mix test
+```
+
+Salida: Nos mostrará el resultado de la siguiente forma: 
+```
+"Suma de facturas:"
+"Número llamdas:"
 ```
 
